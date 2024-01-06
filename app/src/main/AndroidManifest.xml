@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HAMSProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientUpcomingAppInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPastAppsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientUpcomingAppsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListOfShiftsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShiftCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDeniedInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPendingInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDeniedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPendingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialtySelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentListRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentListAcceptedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentListPastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentPastInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentAcceptedInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentRequestInfoActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PatientPastAppInfoActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
